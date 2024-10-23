@@ -8,5 +8,7 @@ public class RowTypeMain {
         integerBox.set(10); //근데 Object로 인식
         Integer result = (Integer) integerBox.get();
         System.out.println("result = " + result);
+
+        // 이런 로 타입은 사용하지 않아야 한다.
     }
 }
