@@ -20,7 +20,7 @@ public class AnimalHospitalMainV3 {
         catHospital.set(cat);
         catHospital.checkup();
 
-        // 문제1: 개 병원에 고양이 전달
+        // 문제1: 개 병원에 고양이 전달함
         //dogHospital.set(cat); //다른 타입 입력: 컴파일 오류
 
         //문제2" 개 타입 반환
