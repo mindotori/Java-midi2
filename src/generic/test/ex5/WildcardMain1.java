@@ -18,8 +18,12 @@ public class WildcardMain1 {
 
         WildcardEx.printGenericV2(dogBox);
         WildcardEx.printWildcardV2(dogBox);
+       // WildcardEx.printWildcardV2(objBox); //Animal의 자식이 아니라 안됨
 
         Dog dog = WildcardEx.printAndReturnGeneric(dogBox);
+
+        catBox.set(new Cat("냐옹이", 100));
+        Cat cat = WildcardEx.printAndReturnGeneric(catBox);
         Animal animal = WildcardEx.printAndReturnWildcard(dogBox);
     }
 }
