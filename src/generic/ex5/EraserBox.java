@@ -1,9 +1,9 @@
-package generic.test.ex5;
+package generic.ex5;
 
 public class EraserBox<T> {
 
     public boolean instanceCheck(Object param){
-        //return param instanceof T;
+        //return param instanceof T; // 컴파일 오류
         return false;
     }
 
